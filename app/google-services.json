@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "416547719463",
+    "firebase_url": "https://babylogapp-4fbc4.firebaseio.com",
+    "project_id": "babylogapp-4fbc4",
+    "storage_bucket": "babylogapp-4fbc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416547719463:android:f6c0d3f9881afe15",
+        "android_client_info": {
+          "package_name": "com.example.maceo.babylog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416547719463-rreru0uh2uq8p6k3l9hn4ov19c851cd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maceo.babylog",
+            "certificate_hash": "29a1e23e77e1e12765e639d8d0e23684c44ba9d5"
+          }
+        },
+        {
+          "client_id": "416547719463-06cbcjbai4qesu8jg413c2vrve3vh8uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maceo.babylog",
+            "certificate_hash": "516c649679a7c747d46af9f67122445c30defd5d"
+          }
+        },
+        {
+          "client_id": "416547719463-lvd3dk1jbmvsm5kqmtjslef6tkunnkbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maceo.babylog",
+            "certificate_hash": "6a4118e2811fcdf4f929df48bb6f7f4f685156a1"
+          }
+        },
+        {
+          "client_id": "416547719463-si4fi9gtsg85c2a5tv6h3esfug0jotj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAasJvY7L3oYBJBj9ib8cIifbG3P8k0Ovs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416547719463-si4fi9gtsg85c2a5tv6h3esfug0jotj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
