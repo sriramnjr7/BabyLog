@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DiaperChangeActivity"
+    android:id="@+id/content_diaperchange">
+
+    <include
+        layout="@layout/app_bar_overall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/bar">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:paddingTop="10dp"
+            app:srcCompat="@drawable/diaperchangetittle" />
+
+        <Button
+            android:id="@+id/btn_start_diaper_change"
+            android:layout_width="195dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/startbtn22"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <EditText
+            android:id="@+id/edt_last_diaper_change_timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:hint="Date and Time"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:text=""
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="217dp"></EditText>
+
+        <TextView
+            android:id="@+id/Nursing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:text="@string/status"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="25dp" />
+
+
+        <Spinner
+            android:id="@+id/sp_diaper_status"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:entries="@array/diaper_status"
+            android:gravity="center"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:prompt="@string/country_prompt" />
+
+        <EditText
+            android:id="@+id/edt_diaper_note"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectanglebigger2"
+            android:ems="10"
+            android:hint="@string/notes"
+            android:inputType="textPersonName"
+            android:paddingBottom="95dp"
+            android:paddingLeft="5dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+        <Button
+            android:id="@+id/btn_diaper_save_status"
+            android:layout_width="261dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/savebtn2"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/feed"
+            android:icon="@drawable/ic_spoon"
+            android:title="Feeding" />
+        <item
+            android:id="@+id/diaper"
+            android:icon="@drawable/ic_diaper2"
+            android:title="Diaper" />
+        <item
+            android:id="@+id/sleep"
+            android:icon="@drawable/ic_sleep"
+            android:title="Sleep" />
+        <item
+            android:id="@+id/chart"
+            android:icon="@drawable/ic_chart2"
+            android:title="Chart" />
+        <item
+            android:id="@+id/journal"
+            android:icon="@drawable/ic_memories"
+            android:title="Memories" />
+        <item
+            android:id="@+id/tt"
+            android:icon="@drawable/ic_tummy"
+            android:title="Tummy Time" />
+        <item
+            android:id="@+id/weightT"
+            android:icon="@drawable/ic_scale2"
+            android:title="Weight Tracker" />
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/editProfile"
+                android:icon="@drawable/ic_edit_profile"
+                android:title="Edit Porfile"/>
+            <item
+                android:id="@+id/logOut"
+                android:icon="@drawable/ic_logout"
+                android:title="Log Out"/>
+        </menu>
+    </item>
+</menu>
